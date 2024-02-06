@@ -1,5 +1,5 @@
 "use strict";
-let thisIsNaN = NaN;
-let thisIsNaNToo = NaN;
-const isSame = thisIsNaN === thisIsNaNToo;
-console.log(isSame);
+function index(age, name) {
+    return age + name;
+}
+console.log(index(19, '20'));
