@@ -20,6 +20,7 @@ interface carInterface{ // 다중 상속 가능, 상속관계가 아닌 서로 �
 class MyShadow extends shadow{
     name: string;
     price: number;
+    id: string;
     getPrice(): number {
         return this.price;
     }
